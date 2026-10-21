@@ -2,7 +2,7 @@
 main.py
 FastAPI项目入口文件
 启动项目，注册全部路由，初始化MongoDB连接，配置全局异常捕获
-启动命令：uvicorn main:app --reload
+启动命令：python -m uvicorn main:app --reload
 """
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
